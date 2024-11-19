@@ -1,6 +1,3 @@
-Aquí tienes un ejemplo de README que documenta tu proyecto. Puedes adaptarlo según sea necesario e incluir imágenes en las secciones correspondientes.
-
-```markdown
 # Monitoreo de Cupos en Materias - Universidad Distrital
 
 Este proyecto es una aplicación web desarrollada con React que permite monitorear la disponibilidad de cupos en materias de la Universidad Distrital. Los usuarios pueden ingresar los datos de las materias que desean seguir, visualizar el estado de los cupos, recibir notificaciones de alerta y añadir nuevas materias a la búsqueda de forma dinámica.
@@ -27,7 +24,7 @@ Este proyecto es una aplicación web desarrollada con React que permite monitore
 ## Tecnologías Utilizadas
 
 - **Frontend**: React.js
-- **Backend**: RESTful API
+- **Backend**: RESTful API Python
 - **Notificaciones**: Sonido de alerta en tiempo real
 - **Estilos**: CSS para personalización de la interfaz
 - **Herramientas**: `fetch` para realizar solicitudes HTTP, `useState` y `useEffect` para el manejo del estado en React
@@ -36,12 +33,12 @@ Este proyecto es una aplicación web desarrollada con React que permite monitore
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu_usuario/monitoreo-cupos-universidad-distrital.git
+   git clone https://gitlab.com/tu_usuario/monitoreo-cupos-universidad-distrital.git
    ```
    
 2. Navega a la carpeta del proyecto:
    ```bash
-   cd monitoreo-cupos-universidad-distrital
+   cd front
    ```
 
 3. Instala las dependencias necesarias:
@@ -81,11 +78,9 @@ monitoreo-cupos-universidad-distrital/
 ├── src/
 │   ├── components/          # Componentes React
 │   │   ├── LogViewer.js     # Componente para mostrar logs
-│   │   ├── MateriaList.js   # Componente para mostrar materias y grupos
-│   │   └── SearchForm.js    # Componente para ingresar los datos de búsqueda
-│   ├── App.js               # Componente principal de la aplicación
+│   │   ├── App.js           # Componente principal de la aplicación para ingresar los datos de búsqueda
+│   │   └── BoxUpdate.js     # Componente para mostrar materias y grupos
 │   └── index.js             # Punto de entrada de React
-│
 └── package.json             # Dependencias y scripts de NPM
 ```
 
@@ -128,16 +123,15 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
 
----
+You are free to:
 
-> **Nota**: Asegúrate de reemplazar las URLs de las imágenes con la ruta correcta a las imágenes que desees incluir en el proyecto. Puedes almacenar las imágenes en una carpeta dentro del directorio `assets` o en cualquier otra ubicación dentro de tu proyecto.
-```
+Share — copy and redistribute the material in any medium or format.
+Adapt — remix, transform, and build upon the material.
+Under the following terms:
 
-### Puntos Clave:
-- He añadido secciones para **Instalación**, **Uso**, **Estructura del Proyecto** y **Contribuciones**.
-- Incluye ejemplos de cómo agregar imágenes a tu README utilizando Markdown.
-- Puedes reemplazar las rutas de las imágenes por las que correspondan a tu proyecto, y si deseas agregar más imágenes, solo tendrás que seguir el mismo formato.
-
-Este README cubre la mayoría de los aspectos de tu aplicación y proporciona espacio para incluir las capturas de pantalla de tu interfaz.
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial — You may not use the material for commercial purposes.
+ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+Read more about this license at CC BY-NC-SA 4.0.
